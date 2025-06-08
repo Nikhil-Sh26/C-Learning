@@ -17,6 +17,7 @@ int main()
     printf("%d * 1 = %d\n",a, a*9);
     printf("%d * 1 = %d\n",a, a*10);
     printf("finally done\n");
+    printf("This is a table of %d\n", a);
     return 0;
 }
 
