@@ -1,0 +1,16 @@
+# Ignore compiled C files
+Practice/add
+Practice/main
+Practice/table
+
+# Ignore macOS file
+.DS_Store
+
+# Ignore compiled C binaries
+*.out
+*.exe
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
