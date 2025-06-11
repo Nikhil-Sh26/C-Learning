@@ -14,3 +14,12 @@ Practice/table
 # Ignore temporary files
 *.log
 *.tmp
+
+# Ignore all files without extensions (likely output binaries)
+Practice/*
+
+# But keep all .c files
+!Practice/*.c
+
+# Also keep .gitignore itself
+!Practice/.gitignore
